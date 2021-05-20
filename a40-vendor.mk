@@ -17,9 +17,6 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/a40
 
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/samsung/a30
-
 PRODUCT_COPY_FILES += \
     vendor/samsung/a30/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/samsung/a30/proprietary/vendor/bin/TC_Bayer_Converter_v8rv_core_opt.bin:$(TARGET_COPY_OUT_VENDOR)/bin/TC_Bayer_Converter_v8rv_core_opt.bin \
